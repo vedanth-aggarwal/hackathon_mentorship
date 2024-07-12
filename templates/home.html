@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to the Global Warming Awareness Website</h1>
+    <p class="lead">Learn more about global warming and how it affects our planet.</p>
+    <hr class="my-4">
+    <p>Explore the latest news and share your ideas on how we can combat global warming.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('news') }}" role="button">Latest News</a>
+</div>
+{% endblock %}
